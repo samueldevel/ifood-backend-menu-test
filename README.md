@@ -9,11 +9,11 @@ Fork this repository and submit your code.
 #  Requirements
      * Restaurant is a entity that contains menus.
      * Chain is an entity that contains Restaurants.
-     * Chain can contains menus.
+     * Chain can contain menus.
      * Restaurant can be associated to a Chain or not.
-     * Restaurant associated to a Chain, inherits its menu, but can overrides any item.
+     * Restaurant associated to a Chain inherits its menu, but can override any item.
      * You don't need to model the entire Restaurant/Chain entity.
-     Only the ids and its relations are enough.
+     Only the ids and their relation are enough.
      * Menu is basically composed by 4 entities: Item, Item Group, Option and Option Group
      (its relations and properties are up to you to decide).
 
