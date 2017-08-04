@@ -1,8 +1,7 @@
 # iFood Backend Test - Menu
 
-Create a micro-service able to accept HTTP requests receiving a restaurant id as parameter and returns its menu(s).
-Based on the requirements below, elaborate your own data model and
-create a database to store the data (you may populate the database manually).
+Create a micro-service able to accept HTTP requests receiving a restaurant id as a parameter and returning its menu(s).
+Based on the requirements below, elaborate your own data model and create a database to store the data (you may populate the database manually).
 Fork this repository and submit your code.
 
 #  Requirements
