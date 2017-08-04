@@ -1,7 +1,6 @@
 # iFood Backend Test - Menu
 
-Create a micro-service able to accept HTTP requests receiving as parameter
-either a restaurant id and returns its menu(s).
+Create a micro-service able to accept HTTP requests receiving a restaurant id as parameter and returns its menu(s).
 Based on the requirements below, elaborate your own data model and
 create a database to store the data (you may populate the database manually).
 Fork this repository and submit your code.
@@ -22,7 +21,7 @@ Fork this repository and submit your code.
     As this service will be a worldwide success, it must be prepared to be fault tolerant,
     responsive and resilient.
 
-    Also, it can host thousands of restaurants' menu, so it must be modeled to be easily
+    Also, it can host thousands of restaurants' menus, so it must be modeled to be easily
     manipulated (create/update/delete operations). For example: if the restaurant runs
     out of "bacon" and need to set all items/options that contains the word "bacon"
     as unavailable, we should easily implement that operation.
@@ -39,6 +38,6 @@ Fork this repository and submit your code.
 
 #  Hints
     You can check iFood's restaurants and its menus at https://www.ifood.com.br/delivery/campinas-sp/
-    (but remember: this may not be best solution).
+    (but remember: this may not be the best solution).
     There's also public Menu API's on the web you can check for inspiration.
     If you use any, please remember to mention.
