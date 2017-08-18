@@ -6,7 +6,7 @@ Based on the requirements below, elaborate your own data model and create a data
 
 Fork this repository and submit your code.
 
-#  Requirements
+##  Requirements
 
 * Restaurant is a entity that contains menus.
 * Chain is an entity that contains Restaurants.
@@ -18,7 +18,7 @@ Only the ids and their relation are enough.
 * Menu is basically composed by 4 entities: Item, Item Group, Option and Option Group
 (its relations and properties are up to you to decide).
 
-#  Non functional requirements   
+##  Non functional requirements   
 
 As this service will be a worldwide success, it must be prepared to be fault tolerant,
 responsive and resilient.
@@ -38,7 +38,7 @@ Use whatever language, tools, frameworks and databases you feel comfortable to.
 
 Also, briefly elaborate on your solution, architecture details, choice of patterns and frameworks.
 
-#  Hints
+##  Hints
 
 You can check iFood's restaurants and its menus at https://www.ifood.com.br/delivery/campinas-sp/
 (but remember: this may not be the best solution).
@@ -46,7 +46,7 @@ You can check iFood's restaurants and its menus at https://www.ifood.com.br/deli
 There's also public Menu API's on the web you can check for inspiration.
 If you use any, please remember to mention.
     
- # Examples
+## Examples
 
 The "Pizza" entity should be offered in three different sizes (small, medium and large).
 
