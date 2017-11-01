@@ -88,7 +88,7 @@ Also, as example, it follows four Items sold by a fictional restaurant:
             - Onion rings (+$1)
             - Chips (+0)
                 - Optionals (Pick any):
-                - Bacon (+$1)
+                    - Bacon (+$1)
         - Beverage (pick one):
             - Soda:
                 - Cola
