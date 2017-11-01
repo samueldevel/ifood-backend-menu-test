@@ -8,11 +8,11 @@ Fork this repository and submit your code.
 
 ##  Requirements
 
-* Restaurant is a entity that contains menus.
+* Restaurant is a entity that contains one or more Menus.
 * Chain is an entity that contains Restaurants.
-* Chain can contain menus.
+* Chain can contain Menus or not.
 * Restaurant can be associated to a Chain or not.
-* Restaurant associated to a Chain inherits its menu, but can override any item.
+* Restaurant associated to a Chain inherits its Menu, but can override any item.
 * You don't need to model the entire Restaurant/Chain entity. 
 Only the ids and their relation are enough.
 * Menu is basically composed by 4 entities: Item, Item Group, Option and Option Group
@@ -23,16 +23,19 @@ Only the ids and their relation are enough.
 As this service will be a worldwide success, it must be prepared to be fault tolerant,
 responsive and resilient.
 
-Also, it can host thousands of restaurants' menus, so it must be modeled to be easily
-manipulated (create/update/delete operations). For example: if the restaurant runs
-out of "bacon" and need to set all items/options that contains the word "bacon"
-as unavailable, we should easily implement that operation.
+Also, it can host thousands of restaurants' Menus, so it must be modeled to be easily
+manipulated (create/update/delete operations that doesn't need to be implemented, 
+but must be considered in the modeling). For example: if the restaurant runs out of "bacon" 
+and need to set all Items/Options that contains "bacon" as unavailable, 
+we should easily implement that operation.
 
 This solution may be used in the integration with other systems/services.
 
-You may consider how this model will contemplate "template items" like Pizza
-(an item that contains sizes/base/crust/toppings/extras) and Combos
-(an item that contains a combinations of other items at different prices).
+You may consider how your micro-service will expose "Template Items" like Pizza
+(an Item that contains sizes/base/crust/toppings/extras) and Combos
+(an Item that contains a combinations of other Items at different prices). 
+They can be modeled as regular Item/Item Group/Option/Option Group, but they may be
+exposed differently.
 
 Use whatever language, tools, frameworks and databases you feel comfortable to.
 
