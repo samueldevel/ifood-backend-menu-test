@@ -17,6 +17,12 @@ Fork this repository and submit your code.
 Only the ids and their relation are enough.
 * Menu is basically composed by 4 entities: Item, Item Group, Option and Option Group
 (its relations and properties are up to you to decide).
+* The price of an Item is basically calculated by adding the price of the Options and the base Item price.
+* The price of an Item also may vary according to context variables like:
+    * User consulting the menu (eg. user john@doe.com has an discount registered)
+    * The sales channel (eg. the price on Facebook Pages/Whatsapp Bot is 20% cheaper than iFood Web/Android/iOS Apps)
+    * Discount voucher (the user may have a discount voucher applied and it may have different effects)
+    * Day of the week / period (eg. the price of a pizza on Monday Night has a discount of $10)
 
 ##  Non functional requirements   
 
@@ -30,14 +36,6 @@ and need to set all Items/Options that contains "bacon" as unavailable,
 we should easily implement that operation.
 
 This solution may be used in the integration with other systems/services.
-
-You may consider a more complex structure to handle the price of an Item.
-Basically the price is calculated by adding the price of the Options and the base Item price.
-But it may vary according to context variables like:
-* User consulting the menu (eg. user john@doe.com has an discount registered)
-* The sales channel (eg. the price on Facebook Pages/Whatsapp Bot is 20% cheaper than iFood Website/Android/iOs Apps)
-* Discount voucher (the user may have a discount voucher applied and it may have different effects)
-* Day of the week / period (eg. the price of a pizza on Monday Night has a discount of $10)
 
 Use whatever language, tools, frameworks and databases you feel comfortable to.
 
